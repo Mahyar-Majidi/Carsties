@@ -1,5 +1,5 @@
 using System;
-using AuctionService.Data.DTOs;
+using AuctionService.DTOs;
 using AuctionService.Entities;
 using AutoMapper;
 

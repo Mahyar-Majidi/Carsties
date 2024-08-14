@@ -1,10 +1,10 @@
 using System;
+using MongoDB.Entities;
 
-namespace AuctionService.DTOs;
+namespace SearchService;
 
-public class AuctionDto
+public class Item : Entity
 {
-    public Guid Id {get; set;}
     public int ReservePrice {get; set;}
     public string Seller {get; set;}
     public string Winner {get; set;}
